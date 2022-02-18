@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MigrosUI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="under_line_text"><u>Çevirmek için tıkla!</u></string>
+    <string name="title_your_campaign">Tahıl Gevreği, Form\n Bisküvi ve Bar alışverişine  \n<b>5 Money Hediye!</b></string>
+
+</resources>

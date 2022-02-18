@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mustafacihanyilmaz.migrosui.BottomNavFragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/mKolayFragment"
+        android:name="com.mustafacihanyilmaz.migrosui.BottomNavFragments.MKolayFragment"
+        android:label="fragment_m_kolay"
+        tools:layout="@layout/fragment_m_kolay" />
+    <fragment
+        android:id="@+id/moneyPayFragment"
+        android:name="com.mustafacihanyilmaz.migrosui.BottomNavFragments.MoneyPayFragment"
+        android:label="fragment_money_pay"
+        tools:layout="@layout/fragment_money_pay" />
+    <fragment
+        android:id="@+id/kazanclarimFragment"
+        android:name="com.mustafacihanyilmaz.migrosui.BottomNavFragments.KazanclarimFragment"
+        android:label="fragment_kazanclarim"
+        tools:layout="@layout/fragment_kazanclarim" />
+</navigation>
